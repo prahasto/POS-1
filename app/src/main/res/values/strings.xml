@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">POS</string>
+    <string name="add_item">Add Item</string>
+
+    <string name="user_id">User Id</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="sync_user">Sync User</string>
+    <string name="order">Order</string>
+    <string name="report">Report</string>
+    <string name="setting">Setting</string>
+</resources>
