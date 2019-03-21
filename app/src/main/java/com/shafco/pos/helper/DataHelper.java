@@ -133,6 +133,7 @@ public class DataHelper extends SQLiteOpenHelper {
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
+        //
         db.execSQL(db_create_tbl_r_produk);
         db.execSQL(db_create_tbl_t_transpos);
         db.execSQL(db_create_tbl_t_transpos_detail);
