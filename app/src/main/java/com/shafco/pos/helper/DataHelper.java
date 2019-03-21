@@ -17,6 +17,7 @@ public class DataHelper extends SQLiteOpenHelper {
     public static final String COLUMN_R_PRODUK_ID = "r_produk_id";
 
     public static final String TABLE_T_TRANSPOS = "t_transpos";
+    public static final String COLUMN_T_TRANSPOS_ID = "t_transpos_id";
     public static final String COLUMN_NOTRANS = "notrans";
     public static final String COLUMN_TANGGAL = "tanggal";
     public static final String COLUMN_TOTAL_TRANS = "total_trans";
@@ -27,6 +28,7 @@ public class DataHelper extends SQLiteOpenHelper {
     public static final String COLUMN_JAM= "jam";
 
     public static final String TABLE_T_TRANSPOS_DETAIL = "t_transpos_detail";
+    public static final String COLUMN_T_TRANSPOS_DETAIL_ID = "t_transpos_detail_id";
     public static final String COLUMN_NOTRANS_DETAIL = "notrans";
     public static final String COLUMN_KDPRODUK = "kdproduk";
     public static final String COLUMN_QTY = "qty";
@@ -37,6 +39,28 @@ public class DataHelper extends SQLiteOpenHelper {
     public static final String COLUMN_PPN = "ppn";
     public static final String COLUMN_R_PRODUK_ID_TRANPOS_DETAIL = "r_produk_id";
     public static final String COLUMN_M_KATEGORI_DISC_ID = "m_kategori_disc_id";
+
+    public static final String TABLE_T_BAYAR_POS = "t_bayarpos";
+    public static final String COLUMN_NOTRANS_BAYAR_POS = "notrans";
+    public static final String COLUMN_KODE_BAYAR_POS = "kode_cara_bayar";
+    public static final String COLUMN_M_EDC_ID = "m_edc_id";
+    public static final String COLUMN_NOMINAL_BAYAR = "nominal_bayar";
+    public static final String COLUMN_BAYAR = "bayar";
+
+    public static final String TABLE_M_CARABAYAR = "m_carabayar";
+    public static final String COLUMN_CARABAYAR = "kode_cara_bayar";
+    public static final String COLUMN_NAMA_CARABAYAR = "nama_cara_bayar";
+    public static final String COLUMN_ISEDC = "isedc";
+
+    public static final String TABLE_M_EDC = "m_edc";
+    public static final String COLUMN_NAMAMERCHAND = "nama_merchand";
+    public static final String COLUMN_TIPEBANK = "tipe_bank";
+    public static final String COLUMN_R_ORGANISASI_ID_EDC = "r_organisasi_id";
+
+
+
+
+
 
 
 
